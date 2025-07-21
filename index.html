@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vergi nih</title>
+    <link href="dist/output.css" rel="stylesheet" />
+
+  </head>
+  <body class="bg-gradient-to-br from-black via-purple-900 to-blue-900 text-white min-h-screen font-mono transition-colors duration-500">
+
+    <!-- Tombol Dark/Light Mode -->
+    <div class="absolute top-4 right-4">
+      <button onclick="toggleMode()" class="bg-purple-700 text-white px-4 py-2 rounded-full shadow hover:bg-purple-500 transition-all duration-300">
+        Coba Klik
+      </button>
+    </div>
+
+    <div class="flex flex-col items-center justify-center py-16 px-4">
+      <img src="jawa.png" alt="Profile" class="w-40 aspect-square object-cover rounded-full shadow-lg border-4 border-purple-500 hover:scale-105 transition-transform duration-500" />
+      <h1 class="text-4xl md:text-5xl mt-6 font-bold text-purple-300 drop-shadow-lg">Lampard Vergiawan Sasriano</h1>
+      <p class="typewriter text-lg mt-4">Maba Teknik Metalurgi yang punya ketertarikan di bidang IT</p>
+
+      <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-md">
+        <a href="https://vergiawans.netlify.app/" target="_blank" class="link-button">About Me</a>
+        <a href="https://www.linkedin.com/in/lampard-vergiawan-sasriano-633722374/" target="_blank" class="link-button">LinkedIn</a>
+        <a href="https://instagram.com/vergiawansr" target="_blank" class="link-button">Instagram</a>
+        <a href="mailto:vergiawan69@gmail.com" class="link-button">Send Email</a>
+
+      </div>
+    </div>
+<div class="flex flex-col items-center justify-center py-16 px-4 mb-auto">
+
+    <!-- Footer Futuristik -->
+<footer class="border-t border-purple-500 bg-black bg-opacity-60 text-center py-4">
+  <p class="text-sm text-gray-400">
+    © 2025 vergiawansr | Dibuat Dengan <span class="text-purple-400">Cinta ❤️ dan Tailwind</span> + <span class="text-green-400">Node.js</span> 🚀
+  </p>
+</footer>
+
+
+    <script>
+      const toggleMode = () => {
+        const html = document.documentElement;
+        html.classList.toggle("dark");
+        if (html.classList.contains("dark")) {
+          document.body.className = "bg-gradient-to-br from-black via-purple-900 to-blue-900 text-white min-h-screen font-mono transition-colors duration-500";
+        } else {
+          document.body.className = "bg-gradient-to-br from-white via-purple-100 to-blue-200 text-black min-h-screen font-mono transition-colors duration-500";
+        }
+      };
+    </script>
+<body class="flex flex-col min-h-screen bg-gradient-to-br from-black via-purple-900 to-blue-900 text-white font-mono transition-colors duration-500">
+
+  </body>
+</html>
+
